@@ -29,7 +29,7 @@ public class Main {
 
         // printing only first names that start with S
         System.out.println("Printing names that start with S");
-        printConditionally(people, p1 -> p1.firstName.toLowerCase().startsWith("s"), p -> System.out.println(p.firstName));
+        printConditionally(people, p1 -> p1.firstName.startsWith("S"), p -> System.out.println(p.firstName));
         System.out.println("=================");
 
     }
